@@ -27,19 +27,19 @@ namespace Example7
 
             bool valueBool = true;
 
-            Console.WriteLine("sbyte:{0}",valueSByte);
-            Console.WriteLine("byte:{0}",valueByte);
-            Console.WriteLine("short:", valudShort);
-            Console.WriteLine("ushort:", valueUShort);
-            Console.WriteLine("int:", valueInt);
-            Console.WriteLine("uint:", valueUInt);
-            Console.WriteLine("long:", valueLong);
-            Console.WriteLine("ulong:", valueULong);
-            Console.WriteLine("flong:", valueFloat);
-            Console.WriteLine("double:", valueDouble);
-            Console.WriteLine("char:", valueChar);
-            Console.WriteLine("string:", valueString);
-            Console.WriteLine("bool:", valueBool);
+            Console.WriteLine("{1}:{0}",valueSByte,valueSByte.GetType().Name);
+            Console.WriteLine("{1}:{0}", valueByte, valueSByte.GetType().Name);
+            Console.WriteLine("{1}:{0}", valudShort, valueSByte.GetType().Name);
+            Console.WriteLine("{1}:{0}", valueUShort, valueSByte.GetType().Name);
+            Console.WriteLine("{1}:{0}", valueInt, valueSByte.GetType().Name);
+            Console.WriteLine("{1}:{0}", valueUInt, valueSByte.GetType().Name);
+            Console.WriteLine("{1}:{0}", valueLong, valueSByte.GetType().Name);
+            Console.WriteLine("{1}:{0}", valueULong, valueSByte.GetType().Name);
+            Console.WriteLine("{1}:{0}", valueFloat, valueSByte.GetType().Name);
+            Console.WriteLine("{1}:{0}", valueDouble, valueSByte.GetType().Name);
+            Console.WriteLine("{1}:{0}", valueChar, valueSByte.GetType().Name);
+            Console.WriteLine("{1}:{0}", valueString, valueSByte.GetType().Name);
+            Console.WriteLine("{1}:{0}", valueBool, valueSByte.GetType().Name);
 
         }
     }
